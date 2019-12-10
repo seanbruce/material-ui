@@ -302,7 +302,7 @@ export const zhCN = {
     MuiTablePagination: {
       backIconButtonText: '上一页',
       labelRowsPerPage: '每页行数:',
-      labelDisplayedRows: ({ from, to, count }) => `${from}-${to === -1 ? count : to} 的 ${count}`,
+      labelDisplayedRows: ({ from, to, count }) => `共 ${count} 条记录，当前显示第 ${from} 到 ${ to === -1 ? count : to } 条记录`,
       nextIconButtonText: '下一页',
     },
     MuiRating: {
